@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secure chat</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav id="nav">
+      <h1>Milky Way</h1>
+    </nav>
+    <div id="welcomeDiv">
+      <h1 id="welcomeHeader">Welcome to your #1 chat app</h1>
+    </div>
+    <div class="channelDiv">
+      <h2>Channels</h2>
+      <button id="btnGetPublic">Public</button>
+      <button id="btnGetPrivate">Private</button>
+    </div>
+
+    <div id="getPublic" class="notActive">
+      <ul id="chatListPublic" class="chatlist"></ul>
+    </div>
+    <div id="sendPublic" class="notActive">
+      <h3 id="publicHeader">Public</h3>
+      <input id="inputPublic" type="text" />
+      <button id="btnPostMessage">Send Message</button>
+    </div>
+    <div id="getPrivate" class="notActive">
+      <ul id="chatListPrivate" class="chatlist"></ul>
+    </div>
+
+    <div id="sendPrivate" class="notActive">
+      <h3 id="privateHeader">Private</h3>
+      <input id="inputPrivate" type="text" />
+      <button id="btnPostPrivate">Send Message</button>
+    </div>
+    <p id="errorMessages"></p>
+    <div class="login-form">
+      <label> Username </label>
+      <input id="inputUsername" type="text" />
+      <label>Password</label>
+      <input id="inputPassword" type="password" />
+
+      <div class="authButtons">
+        <button id="btnLogin">Log in</button>
+        <button id="btnLogout" disabled>Log out</button>
+        <button id="regButton">Register</button>
+      </div>
+    </div>
+  </body>
+</html>

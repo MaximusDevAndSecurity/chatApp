@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  font-family: "Itim", cursive;
+}
+#nav {
+  position: fixed;
+  font-size: 28px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  transform: translate(-50%);
+}
+#welcomeDiv {
+  font-size: 14px;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 350px;
+}
+.login-form {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  padding: 1em;
+  position: absolute;
+  bottom: 50px;
+  left: 5px;
+  margin-left: 42px;
+  font-size: 18px;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+#inputUsername,
+#inputPassword {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.authButtons > * {
+  flex-grow: 1;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 10px;
+  margin: 5px;
+  border-style: none;
+  font-weight: 700;
+}
+button:hover {
+  cursor: pointer;
+}
+.authButtons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+#leadingH {
+  position: relative;
+}
+.channelDiv {
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  width: 300px;
+  height: 175px;
+  margin-top: 50px;
+  display: grid;
+  margin-left: 41px;
+  align-items: center;
+}
+
+.active {
+  width: 40%;
+  height: 65vh;
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  align-items: center;
+  overflow-y: auto;
+  border: 3px solid black;
+  background-color: whitesmoke;
+}
+.chatlist {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.chatlist li {
+  list-style: none;
+  display: inline-block;
+  padding: 15px;
+}
+.activeSend {
+  position: absolute;
+  width: 320px;
+  bottom: 4%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.activeSend input {
+  border-style: none;
+  border-radius: 10px;
+  height: 29px;
+  width: 177px;
+}
+.notActive {
+  display: none;
+}
+
+p {
+  padding: 5px;
+  border-radius: 10px;
+  width: 241px;
+  font-size: 16px;
+  position: absolute;
+  top: 53%;
+  margin-left: 84px;
+  color: orangered;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
+#publicHeader {
+  position: absolute;
+  top: -78vh;
+  left: -123px;
+  font-size: 46px;
+}
+
+#privateHeader {
+  position: absolute;
+  top: -78vh;
+  left: -123px;
+  font-size: 46px;
+}

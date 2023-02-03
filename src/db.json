@@ -1,0 +1,111 @@
+{
+  "users": [
+    {
+      "name": "admin",
+      "password": "$2b$10$.1pqDTkefvbVXgPAEzTVx.ntiRh8TTlFAcDvOrDjUfdDzJd8pSbhO"
+    },
+    {
+      "name": "star-lord",
+      "password": "$2b$10$YI.q8lt94zTgr6VXPKZeJ.0ll0kZAFvx0QkfNY0zVT1Q3W/lFLbZG"
+    }
+  ],
+  "messagesPrivate": [
+    {
+      "user": "star-lord",
+      "message": "wow är jag en av dem coola kidsen nu hehe ;)",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Jajamensan! Välkommen!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Känn dig som hemma och börja gärna utforska galaxen, var försiktig bara så du inte åker vilse!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "star-lord",
+      "message": "Ajaj Kapten!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    }
+  ],
+  "messagesPublic": [
+    {
+      "user": "guest858",
+      "message": "Halloj! hittade precis den grymma hemsidan! ",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "guest858",
+      "message": "hallå!? någon annan här eller är det bara jag som svävar här ute i rymded?",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "guest858",
+      "message": "rymden* ska det stå naturligtvis",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "guest858",
+      "message": "hmm jag får vänta till någon annan anländer hit",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Hej där guest858!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "guest858",
+      "message": "Är du kvar?",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Jajamensan!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Du är alltid välkommen att registrera dig på färdkosten så att du slipper vara känd som guest",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Du behöver bara registrera ny användare så är det färdigt!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "guest858",
+      "message": "Grymt ska fixa det nu!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Fixade du det?",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "star-lord",
+      "message": "Jajamensan här e jag!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Otroligt, nu är du välkommen att hoppa in i den exklusiva kanalen private, ses där!",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Hmm....",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    },
+    {
+      "user": "admin",
+      "message": "Jag känner doften av inkräktare ",
+      "date": "Fri Feb 03 2023:5:51:29 PM"
+    }
+  ]
+}
