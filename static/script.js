@@ -69,7 +69,6 @@ btnLogin.addEventListener('click', async () => {
 		name: inputUsername.value,
 		password: inputPassword.value
 	}
-	console
 	// "Optimistisk" kod
 	const options = {
 		method: 'POST',
@@ -84,7 +83,6 @@ btnLogin.addEventListener('click', async () => {
 	if (response.status === 200) {
 		console.log('Login successful')
 		const userToken = await response.json()
-		console.log('User token: ', userToken)
 		// Spara userToken.token
 		localStorage.setItem(JWT_KEY, userToken.token)
 		localStorage.setItem(JWT_NAME, userToken.name)
@@ -125,7 +123,6 @@ async function getPublic() {
 		}
 
 		messages = await response.json()
-		console.log('Data from server: ', messages)
 
 	} catch (error) {
 		console.log('Something went wrong when fetching data from server. (GET) \n', error.messages)
@@ -159,7 +156,6 @@ btnPostMessage.addEventListener('click', async () => {
 	// 2. Vad skickar servern för svar?
 	// 3. uppdatera gränssnittet
 	let userMessage = inputPublic.value
-	console.log(userMessage)
 
 	const options = {
 		method: 'POST',
@@ -205,7 +201,6 @@ async function getPrivate() {
 		}
 
 		messages = await response.json()
-		console.log('Data from server: ', messages)
 
 	} catch (error) {
 		console.log('Something went wrong when fetching data from server. (GET) \n', error.messages)
@@ -237,7 +232,6 @@ btnGetPrivateChannel.addEventListener('click', getPrivate)
 postPrivate.addEventListener('click', async () => {
 
 	let userMessage = inputPrivate.value
-	console.log(userMessage)
 
 	const jwt = localStorage.getItem(JWT_KEY)
 	const options = {
